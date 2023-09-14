@@ -4,7 +4,12 @@
     <test name="Home">
         <classes>
             <class name="Home.Setup"/>
-            <class name="Home.HeaderSection "/>
+            <class name="Home.HeaderSectionTest "/>
+            <class name="Home.SpecialistSectionTest">
+            </class>
+            <class name="Home.PromotionalSectionTest">
+
+            </class>
         </classes>
     </test>
 </suite>
