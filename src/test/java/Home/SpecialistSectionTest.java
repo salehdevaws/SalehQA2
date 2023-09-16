@@ -8,11 +8,11 @@ public class SpecialistSectionTest {
     @Test (priority = 1)
     public void CheckTitleOfSectionIsDisplayed(){
         Setup.jse.executeScript("window.scrollBy(0,300)");
-        Assert.assertTrue(HomeElements.getTitleText().isDisplayed());
+        Assert.assertTrue(HomeElements. getSpecialistTitleText().isDisplayed());
     }
     @Test(priority = 2)
     public void CheckTextTitleOfSectionIsCorrect(){
-        Assert.assertEquals(HomeElements.getTitleText().getText(),"نخبة من الأخصائيين والمرشدين");
+        Assert.assertEquals(HomeElements. getSpecialistTitleText().getText(),"نخبة من الأخصائيين والمرشدين");
     }
     @Test(priority = 3)
     public void CheckSpecialistProfileButtonIsDisplayed(){

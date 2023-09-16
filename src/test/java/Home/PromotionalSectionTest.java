@@ -20,10 +20,24 @@ public class PromotionalSectionTest {
 }
 @Test(priority = 4)
     public void CheckDownloadAppTextIsDisplayed(){
+    Setup.jse.executeScript("window.scrollBy(0,600)");
     Assert.assertTrue(HomeElements.getDownloadAppText().isDisplayed());
 }
 @Test(priority = 5)
     public void CheckDownloadAppTextIsCorrect(){
     Assert.assertEquals(HomeElements.getDownloadAppText().getText(),"حمل التطبيق");
+}
+@Test(priority = 6)
+    public void CheckDownloadAppButtonIsDisplayed(){
+    Assert.assertTrue(HomeElements.getDownloadAppButton().isDisplayed());
+}
+@Test(priority = 7)
+    public void CheckDownloadAppButtonIsClick(){
+    HomeElements.getDownloadAppButton().click();
+}
+@Test(priority = 8)
+    public void CheckAppStorePageIsCorrect(){
+    Assert.assertEquals(HomeElements.getappStorePageTitle().getText(),"فامكير- جلسات نفسية واجتماعية 4+");
+    Setup.driver.navigate().back();
 }
     }

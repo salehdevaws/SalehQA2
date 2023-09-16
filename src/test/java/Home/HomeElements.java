@@ -28,11 +28,11 @@ public class HomeElements {
     public static WebElement getOfficialAgencyText(){
         return Setup.driver.findElement(By.xpath("/html/body/div[1]/section[2]/div/div/div/div/div[2]/div[4]/div/div[2]/h3"));
     }
-    public static WebElement getTitleText(){
+    public static WebElement getSpecialistTitleText(){
         return Setup.driver.findElement(By.xpath("/html/body/div[1]/section[3]/div/div/div/div/div[1]/h2"));
     }
     public static WebElement getSpecialistProfileButton(){
-        return Setup.driver.findElement(By.xpath("//*[@id=\"swiper-wrapper-bd1010bbaa9a0565d8\"]/div[29]/div/div[2]/a[1]"));
+        return Setup.driver.findElement(By.xpath("//*[@id=\"swiper-wrapper-a0ac9d8c07c5c2c9\"]/div[9]/div/div[2]/a[1]"));
     }
     public static WebElement  getSpecialistInfo(){
         return Setup.driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/div/div/div[1]/h2"));
@@ -55,6 +55,17 @@ public class HomeElements {
     }
     public static WebElement getDownloadAppText(){
         return Setup.driver.findElement(By.xpath("//*[@id=\"stepsSection\"]/div/div/div[2]/div/div/div/div/div[3]/div[1]/div/div[1]/h4"));
+
+    }
+    public static WebElement getDownloadAppButton(){
+        return Setup.driver.findElement(By.xpath("//*[@id=\"stepsSection\"]/div/div/div[2]/div/div/div/div/div[3]/div[1]/div/div[2]/div/div/a[2]/img"));
+
+    }
+    public static WebElement getFromBlogSectionTitle(){
+        return Setup.driver.findElement(By.xpath("/html/body/div[1]/section[7]/div/div/div/div/div[1]/h2"));
+    }
+    public static WebElement getBlogListContainer(){
+        return Setup.driver.findElement(By.xpath("/html/body/div[1]/section[7]/div/div/div/div/div[3]/div"));
 
     }
 

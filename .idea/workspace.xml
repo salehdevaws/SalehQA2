@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2034e36-75ac-4822-ac77-de152825c114" name="Changes" comment="ok">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Home/HomeElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Home/PromotionalSectionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Home/FromBlogSectionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Home/HeaderSection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Home/HeaderSectionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Home/Setup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Home/Setup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Home/SpecialistSection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Home/SpecialistSectionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Home/HeaderSectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Home/FirstSection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Home/HomeElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Home/HomeElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Home/PromotionalSectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Home/PromotionalSectionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Home/SpecialistSectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Home/SpecialistSectionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testing.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testing.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,9 +56,8 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Home">
+  <component name="RunManager" selected="TestNG.C:/Users/fun_s/IdeaProjects/SalehQA/testing.xml">
     <configuration name="C:/Users/fun_s/IdeaProjects/SalehQA/testing.xml" type="TestNG" nameIsGenerated="true">
-      <module name="untitled3" />
       <shortenClasspath name="NONE" />
       <useClassPathOnly />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testing.xml" />
@@ -69,6 +68,28 @@
       <option name="TEST_OBJECT" value="SUITE" />
       <option name="PARAMETERS" value="" />
       <option name="OUTPUT_DIRECTORY" value="C:\Users\fun_s\IdeaProjects\SalehQA\TestReport" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/fun_s/IdeaProjects/SalehQA/testing.xml" type="TestNG" temporary="true">
+      <module name="untitled3" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testing.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
       <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
@@ -93,6 +114,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HeaderTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="untitled3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Home.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Home" />
+      <option name="MAIN_CLASS_NAME" value="Home.HeaderTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Home" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="untitled3" />
       <extension name="coverage">
@@ -103,35 +141,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="Home" />
       <option name="TEST_OBJECT" value="PACKAGE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PromotionalSectionTest.CheckPromotionalSectionTitleIsDisplayed" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="untitled3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Home.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Home" />
-      <option name="MAIN_CLASS_NAME" value="Home.PromotionalSectionTest" />
-      <option name="METHOD_NAME" value="CheckPromotionalSectionTitleIsDisplayed" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Setup" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="untitled3" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Home.Setup" />
-      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -150,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/fun_s/IdeaProjects/SalehQA/testing.xml" />
         <item itemvalue="TestNG.Home" />
-        <item itemvalue="TestNG.PromotionalSectionTest.CheckPromotionalSectionTitleIsDisplayed" />
-        <item itemvalue="TestNG.&lt;default&gt;" />
-        <item itemvalue="TestNG.Setup" />
+        <item itemvalue="TestNG.HeaderTest" />
         <item itemvalue="TestNG.HeaderSectionTest" />
+        <item itemvalue="TestNG.&lt;default&gt;" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +184,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694651116455</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ok">
+      <option name="closed" value="true" />
+      <created>1694733709853</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1694733709853</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -209,5 +226,8 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/SalehQA$C__Users_fun_s_IdeaProjects_SalehQA_testing_xml.ic" NAME="$PROJECT_DIR$/testing.xml Coverage Results" MODIFIED="1694821834622" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
