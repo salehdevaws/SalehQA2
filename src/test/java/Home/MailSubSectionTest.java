@@ -9,7 +9,7 @@ import java.awt.*;
 public class MailSubSectionTest {
     @Test(priority =1)
     public void CheckMailSubTitleTextIsDisplayed(){
-        Setup.jse.executeScript("window.scrollBy(0,200)");
+        Setup.jse.executeScript("window.scrollBy(0,300)");
         Setup.wait.until(ExpectedConditions.visibilityOf(HomeElements.getMailSubTitleText()));
         HomeElements.assertElementIsDisplayed(HomeElements.getMailSubTitleText());
     }
