@@ -9,6 +9,7 @@ public class FromBlogSectionTest {
     @Test(priority = 1)
     public void CheckFromBlogTitleTextIsDisplayed() {
         Setup.jse.executeScript("window.scrollBy(0,450)");
+        Setup.wait.until(ExpectedConditions.visibilityOf(HomeElements.getFromBlogSectionTitle()));
         HomeElements.assertElementIsDisplayed(HomeElements.getFromBlogSectionTitle());
     }
 

@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2034e36-75ac-4822-ac77-de152825c114" name="Changes" comment="ok">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Specialists/Setup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Specialists/SpecialistPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Specialists/SpecialistsElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Specialists/TearDown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Blog/Setup.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Home/MailSubSectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Home/MailSubSectionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Home/Setup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Home/Setup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Home/FromBlogSectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Home/FromBlogSectionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Home/TearDown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Home/TearDown.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Specialists/SpecialistPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Specialists/SpecialistPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Specialists/TearDown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Specialists/TearDown.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testing.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testing.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -140,7 +139,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694524946204</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ok">
+      <option name="closed" value="true" />
+      <created>1695470212945</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1695470212945</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

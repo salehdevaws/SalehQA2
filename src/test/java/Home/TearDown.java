@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 
 public class TearDown {
     @AfterClass
-    public void TearDown(){
+    public void Teardown(){
         Setup.driver.quit();
     }
 

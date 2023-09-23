@@ -30,6 +30,8 @@
             </class>
             <class name="Specialists.SpecialistPageTest">
             </class>
+            <class name="Specialists.TearDown">
+            </class>
 
         </classes>
     </test>

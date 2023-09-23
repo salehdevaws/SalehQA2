@@ -3,6 +3,8 @@ package Specialists;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import static Specialists.Setup.*;
+
 public class SpecialistPageTest {
 @Test(priority = 1)
     public void CheckHeaderSectionTitleTextIsDisplayed(){
@@ -44,7 +46,7 @@ public void CheckTextOfSearchInputField(){
 @Test(priority = 9)
     public void CheckTextFromSpecialistInfoPageIsDisplayed(){
     SpecialistsElements.assertElementIsDisplayed(SpecialistsElements.getFromSpecialistInfoPage());
-    Setup.driver.navigate().back();
+    driver.navigate().back();
 }
 @Test(priority = 10)
     public void CheckMoreIconIsDisplayed(){
@@ -52,12 +54,12 @@ public void CheckTextOfSearchInputField(){
 }
 @Test(priority = 11)
     public void CheckMoreIconTextIsClick(){
-    Setup.jse.executeScript("window.scrollBy(0,500)");
+    jse.executeScript("window.scrollBy(0,500)");
     SpecialistsElements.getSpecialistsMoreIcon().click();
 }
 @Test(priority = 12)
     public void CheckMoreIconIsShowMoreContent(){
-    Setup.jse.executeScript("window.scrollBy(0,200)");
+    jse.executeScript("window.scrollBy(0,200)");
     SpecialistsElements.assertElementIsDisplayed(SpecialistsElements.getMoreSpecialistContainer());
 }
 

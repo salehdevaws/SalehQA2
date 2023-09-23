@@ -1,12 +1,13 @@
 package Specialists;
 
-import Home.Setup;
 import org.testng.annotations.AfterClass;
+
+import static Specialists.Setup.*;
 
 public class TearDown {
     @AfterClass
-    public void TearDown(){
-        Setup.driver.quit();
+    public void Teardown(){
+        driver.quit();
     }
 
 }
