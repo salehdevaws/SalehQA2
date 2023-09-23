@@ -8,7 +8,7 @@ public class SpecialistSectionTest {
     @Test (priority = 1)
     public void CheckTitleOfSectionIsDisplayed(){
         Setup.jse.executeScript("window.scrollBy(0,300)");
-        Assert.assertTrue(HomeElements. getSpecialistTitleText().isDisplayed());
+        HomeElements.assertElementIsDisplayed(HomeElements. getSpecialistTitleText());
     }
     @Test(priority = 2)
     public void CheckTextTitleOfSectionIsCorrect(){
@@ -16,7 +16,7 @@ public class SpecialistSectionTest {
     }
     @Test(priority = 3)
     public void CheckSpecialistProfileButtonIsDisplayed(){
-        Assert.assertTrue(HomeElements.getSpecialistProfileButton().isDisplayed());
+        HomeElements.assertElementIsDisplayed(HomeElements.getSpecialistProfileButton());
     }
     @Test(priority = 4)
     public void CheckSpecialistProfileButtonTextIsCorrect(){
@@ -28,13 +28,13 @@ public class SpecialistSectionTest {
     }
     @Test (priority = 6)
     public void CheckSpecialistProfileButtonIsNavigateCorrect(){
-    Assert.assertTrue(HomeElements.getSpecialistInfo().isDisplayed());
+   HomeElements.assertElementIsDisplayed(HomeElements.getSpecialistInfo());
     Assert.assertEquals(HomeElements.getSpecialistInfo().getText(),"معلومات الأخصائي");
     Setup.driver.navigate().back();
     }
     @Test(priority =7 )
     public void CheckContactButtonISDisplayed(){
-        Assert.assertTrue(HomeElements.getContactUsButton().isDisplayed());
+        HomeElements.assertElementIsDisplayed(HomeElements.getContactUsButton());
 
     }
     @Test(priority = 8)
@@ -53,7 +53,7 @@ public class SpecialistSectionTest {
     @Test(priority = 11)
     public void CheckIconUnderSpecialistSection(){
         Setup.jse.executeScript("window.scrollBy(0,100)");
-        Assert.assertTrue(HomeElements.getIconUnderSpecialistSection().isDisplayed());
+        HomeElements.assertElementIsDisplayed(HomeElements.getIconUnderSpecialistSection());
     }
 
     }

@@ -1,20 +1,25 @@
+
+
 package Home;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+
 public class FirstSection {
+
+
     @Test(priority = 1)
-    public void HeaderTextisDisplayed()  {
-        Assert.assertTrue(HomeElements.getHeaderText().isDisplayed());
+    public void CheckHeaderTextisDisplayed()  {
+        HomeElements.assertElementIsDisplayed(HomeElements.getHeaderText());
     }
     @Test (priority = 2)
-    public void HeaderTextisCorrect(){
+    public void CheckHeaderTextisCorrect(){
         Assert.assertEquals(HomeElements.getHeaderText().getText(),"ابدأ جلستك الأولى مع مستشارك الي يناسبك مع خصم 60%");
     }
     @Test (priority = 3)
-    public void SecondTextIsDisplayed(){
-        Assert.assertTrue(HomeElements.getSecondText().isDisplayed());
+    public void CheckSecondTextIsDisplayed(){
+       HomeElements.assertElementIsDisplayed(HomeElements.getSecondText());
     }
     @Test(priority = 4)
     public void CheckSecondTextIsCorrect(){
@@ -23,28 +28,28 @@ public class FirstSection {
     }
 
     @Test(priority = 5)
-    public void PhotoIsDisplayed(){
-        Assert.assertTrue(HomeElements.getfirstHeaderPhoto().isDisplayed());
+    public void CheckPhotoIsDisplayed(){
+        HomeElements.assertElementIsDisplayed(HomeElements.getfirstHeaderPhoto());
     }
     @Test(priority = 6)
-    public void FisrtButtonIsCorrect(){
+    public void CheckFisrtButtonTextIsCorrect(){
         Assert.assertEquals(HomeElements.getfirstButtonHeader().getText(),"احجز جلستك الأولى");
     }
 
     @Test(priority = 7)
-    public void FirstButtonClicked(){
+    public void CheckFirstButtonClicked(){
         HomeElements.getfirstButtonHeader().click();
     }
     @Test(priority = 8)
-    public void FirstButtonNavigate()  {
+    public void CheckFirstButtonNavigate()  {
         Assert.assertEquals(HomeElements.getappStorePageTitle().getText(),"فامكير- جلسات نفسية واجتماعية 4+");
         Setup.driver.navigate().back();
 
     }
     @Test(priority = 9)
-    public void OfficialAgencyTitleIsDisplayed() {
+    public void CheckOfficialAgencyTitleIsDisplayed() {
         Setup.jse.executeScript("window.scrollBy(0,650)");
-        Assert.assertTrue(HomeElements.getofficialAgencyTitle().isDisplayed());
+      HomeElements.assertElementIsDisplayed(HomeElements.getofficialAgencyTitle());
     }
     @Test(priority = 10)
     public void CheckOfficialAgencyTitleIsCorrect(){
@@ -52,16 +57,18 @@ public class FirstSection {
 
     }
     @Test(priority = 11)
-    public void OfficialAgencyPhotoIsDisplayed() {
-        Assert.assertTrue(HomeElements.getofficialAgencyPhoto().isDisplayed());
+    public void CheckOfficialAgencyPhotoIsDisplayed() {
+       HomeElements.assertElementIsDisplayed(HomeElements.getofficialAgencyPhoto());
     }
     @Test(priority = 12)
-    public void OfficialAgencyTextIsDisplayed(){
-        Assert.assertTrue(HomeElements.getOfficialAgencyText().isDisplayed());
+    public void CheckOfficialAgencyTextIsDisplayed(){
+       HomeElements.assertElementIsDisplayed(HomeElements.getOfficialAgencyText());
     }
     @Test(priority =13)
-    public void OfficialAgencyTextIsCorrect(){
+    public void CheckOfficialAgencyTextIsCorrect(){
         Assert.assertEquals(HomeElements.getOfficialAgencyText().getText(),"مركز طب اتصالي");
 
     }
+
 }
+

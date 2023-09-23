@@ -24,7 +24,7 @@ public class Setup {
         options.addArguments("start-maximized");
         driver= WebDriverManager.chromedriver().capabilities(options).create();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
-        wait=new WebDriverWait(driver,Duration.ofSeconds(5));
+        wait=new WebDriverWait(driver,Duration.ofSeconds(3));
         driver.get("https://famcare.app");
         jse= (JavascriptExecutor) driver;
     }

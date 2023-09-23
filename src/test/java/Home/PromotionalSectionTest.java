@@ -1,5 +1,6 @@
 package Home;
 
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -8,7 +9,8 @@ public class PromotionalSectionTest {
 @Test(priority = 1)
     public void CheckPromotionalSectionTitleIsDisplayed() {
     Setup.jse.executeScript("window.scrollBy(0,1000)");
-    Assert.assertTrue(HomeElements.getPromotionalSectionTitle().isDisplayed());
+    Setup.wait.until(ExpectedConditions.visibilityOf(HomeElements.getPromotionalSectionTitle()));
+    HomeElements.assertElementIsDisplayed(HomeElements.getPromotionalSectionTitle());
 }
 @Test(priority = 2)
     public void CheckPromotionalSectionTitleTextIsCorrect(){
@@ -16,12 +18,13 @@ public class PromotionalSectionTest {
 }
 @Test(priority = 3)
     public void CheckPhotoAboveVideoSectionIsDisplayed(){
-    Assert.assertTrue(HomeElements.getPhotoAboveVideoSection().isDisplayed());
+    HomeElements.assertElementIsDisplayed(HomeElements.getPhotoAboveVideoSection());
 }
 @Test(priority = 4)
     public void CheckDownloadAppTextIsDisplayed(){
     Setup.jse.executeScript("window.scrollBy(0,600)");
-    Assert.assertTrue(HomeElements.getDownloadAppText().isDisplayed());
+    Setup.wait.until(ExpectedConditions.visibilityOf(HomeElements.getDownloadAppText()));
+    HomeElements.assertElementIsDisplayed(HomeElements.getDownloadAppText());
 }
 @Test(priority = 5)
     public void CheckDownloadAppTextIsCorrect(){
@@ -29,7 +32,7 @@ public class PromotionalSectionTest {
 }
 @Test(priority = 6)
     public void CheckDownloadAppButtonIsDisplayed(){
-    Assert.assertTrue(HomeElements.getDownloadAppButton().isDisplayed());
+    HomeElements.assertElementIsDisplayed(HomeElements.getDownloadAppButton());
 }
 @Test(priority = 7)
     public void CheckDownloadAppButtonIsClick(){

@@ -5,11 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2034e36-75ac-4822-ac77-de152825c114" name="Changes" comment="ok">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Home/FromBlogSectionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Home/HomeFooterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Home/MailSubSectionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Home/TearDown.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Home/HeaderSectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Home/FirstSection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Home/FirstSection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Home/FirstSection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Home/FromBlogSectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Home/FromBlogSectionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Home/HomeElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Home/HomeElements.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Home/PromotionalSectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Home/PromotionalSectionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Home/Setup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Home/Setup.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Home/SpecialistSectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Home/SpecialistSectionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testing.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testing.xml" afterDir="false" />
     </list>
@@ -21,6 +26,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -49,6 +56,9 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Home" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
@@ -56,7 +66,30 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/fun_s/IdeaProjects/SalehQA/testing.xml">
+  <component name="RunManager" selected="TestNG.C:/Users/fun_s/IdeaProjects/SalehQA/testing.xml (1)">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="SalehQA" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="SalehQA" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/fun_s/IdeaProjects/SalehQA/testing.xml (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SalehQA" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testing.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="C:/Users/fun_s/IdeaProjects/SalehQA/testing.xml" type="TestNG" nameIsGenerated="true">
       <shortenClasspath name="NONE" />
       <useClassPathOnly />
@@ -98,7 +131,7 @@
       </method>
     </configuration>
     <configuration name="HeaderSectionTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="untitled3" />
+      <module name="SalehQA" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value=".*" />
@@ -115,10 +148,10 @@
       </method>
     </configuration>
     <configuration name="HeaderTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="untitled3" />
+      <module name="SalehQA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Home.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,7 +165,7 @@
       </method>
     </configuration>
     <configuration name="Home" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="untitled3" />
+      <module name="SalehQA" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Home.*" />
@@ -148,7 +181,7 @@
       </method>
     </configuration>
     <configuration name="&lt;default&gt;" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="untitled3" />
+      <module name="SalehQA" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="PACKAGE" />
       <properties />
@@ -159,11 +192,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/fun_s/IdeaProjects/SalehQA/testing.xml (1)" />
         <item itemvalue="TestNG.C:/Users/fun_s/IdeaProjects/SalehQA/testing.xml" />
         <item itemvalue="TestNG.Home" />
         <item itemvalue="TestNG.HeaderTest" />
         <item itemvalue="TestNG.HeaderSectionTest" />
-        <item itemvalue="TestNG.&lt;default&gt;" />
       </list>
     </recent_temporary>
   </component>
@@ -192,7 +225,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694733709853</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ok">
+      <option name="closed" value="true" />
+      <created>1694824567288</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1694824567288</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

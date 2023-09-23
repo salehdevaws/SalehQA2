@@ -2,8 +2,16 @@ package Home;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.testng.Assert;
 
 public class HomeElements {
+    public static void assertElementIsDisplayed(WebElement element) {
+        Assert.assertTrue(element.isDisplayed());
+    }
+   // public static void assertElementTextEquals(WebElement element, String expectedText) {
+       // Assert.assertEquals( expectedText, " expected text");
+   // }
+
     public static WebElement getHeaderText(){
         return Setup.driver.findElement(By.xpath("//*[@id=\"heroText\"]/div/div[1]/h2"));
     }
@@ -68,6 +76,38 @@ public class HomeElements {
         return Setup.driver.findElement(By.xpath("/html/body/div[1]/section[7]/div/div/div/div/div[3]/div"));
 
     }
+    public static WebElement getDetailsButtonForMainPost(){
+        return Setup.driver.findElement(By.xpath("/html/body/div[1]/section[7]/div/div/div/div/div[3]/div/div/article[1]/div/div[2]/div[2]/div/a"));
+    }
+    public static WebElement getReadMoreFromBlogButton(){
+        return Setup.driver.findElement(By.xpath("/html/body/div[1]/section[7]/div/div/div/div/div[4]/a"));
+    }
+    public static WebElement getFeatureBlogSection(){
+        return Setup.driver.findElement(By.xpath("/html/body/section[1]"));
+    }
+    public static WebElement getPartnerTitleText(){
+        return Setup.driver.findElement(By.xpath("/html/body/div[1]/section[8]/div/div/div/div/div[1]/h2"));
+
+    }
+    public static WebElement getPartnerWrapper(){
+        return Setup.driver.findElement(By.xpath("/html/body/div[1]/section[8]/div/div/div/div/div[2]/div/div/div[1]"));
+    }
+    public static WebElement getMailSubTitleText(){
+        return Setup.driver.findElement(By.xpath("/html/body/div[1]/section[9]/div/div/div/div/div[1]/div"));
+    }
+    public static WebElement getMailListSubField(){
+        return Setup.driver.findElement(By.xpath("//*[@id=\"mc4wp-form-1\"]"));
+    }
+    public static WebElement getFooterMailInfo(){
+        return Setup.driver.findElement(By.xpath("/html/body/footer/div[1]/div/div/div[1]/div/div[2]/div[1]/div[2]/a"));
+    }
+    public static WebElement getFooterMailSubFiled(){
+        return Setup.driver.findElement(By.xpath("//*[@id=\"mc4wp-form-2\"]/div[1]/div/input[1]"));
+    }
+    public static WebElement getFooterAppStoreButton(){
+        return Setup.driver.findElement(By.xpath("/html/body/footer/div[1]/div/div/div[2]/div/div[1]/div/div[2]/a/img"));
+    }
+
 
     }
 
