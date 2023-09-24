@@ -1,6 +1,7 @@
 package Academy;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -112,6 +113,7 @@ public class AcademyPageTest {
     //Check if Button of View Cart is Run and Navigate truly to Cart Page
     @Test(priority = 25)
     public void CheckViewCartButtonIsClick(){
+        Setup.wait.until(ExpectedConditions.visibilityOf(AcademyElements.getViewCartButton()));
         AcademyElements.getViewCartButton().click();
     }
     @Test(priority = 26)

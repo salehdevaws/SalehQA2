@@ -40,7 +40,7 @@ public class HomeElements {
         return Setup.driver.findElement(By.xpath("/html/body/div[1]/section[3]/div/div/div/div/div[1]/h2"));
     }
     public static WebElement getSpecialistProfileButton(){
-        return Setup.driver.findElement(By.xpath("//*[@id=\"swiper-wrapper-a0ac9d8c07c5c2c9\"]/div[9]/div/div[2]/a[1]"));
+        return Setup.driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/div/div[2]/a[1]"));
     }
     public static WebElement  getSpecialistInfo(){
         return Setup.driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/div/div/div[1]/h2"));
