@@ -5,12 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2034e36-75ac-4822-ac77-de152825c114" name="Changes" comment="ok">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Blog/Setup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Academy/AcademyElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Academy/AcademyPageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Academy/Setup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Blog/BlogElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Blog/BlogPageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Blog/TearDown.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Home/FromBlogSectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Home/FromBlogSectionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Home/TearDown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Home/TearDown.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Specialists/SpecialistPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Specialists/SpecialistPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Specialists/TearDown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Specialists/TearDown.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testing.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testing.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -44,14 +48,55 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/WAFA-MSI/IdeaProjects/SalehQA/src/main/java/org/example/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/fun_s/IdeaProjects/SalehQA/TestReport&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/WAFA-MSI/IdeaProjects/SalehQA/src/main/java/org/example/Main.java&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.C:/Users/WAFA-MSI/IdeaProjects/SalehQA/testing.xml">
-    <configuration name="C:/Users/WAFA-MSI/IdeaProjects/SalehQA/testing.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Home" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.Academy">
+    <configuration name="Academy" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SalehQA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Academy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Academy" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Blog" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SalehQA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Blog.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Blog" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/fun_s/IdeaProjects/SalehQA/testing.xml (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SalehQA" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testing.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
@@ -61,8 +106,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HeaderSection" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/fun_s/IdeaProjects/SalehQA/testing.xml" type="TestNG" nameIsGenerated="true">
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testing.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="C:\Users\fun_s\IdeaProjects\SalehQA\TestReport" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/fun_s/IdeaProjects/SalehQA/testing.xml" type="TestNG" temporary="true">
       <module name="untitled3" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testing.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HeaderTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SalehQA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Home" />
+      <option name="MAIN_CLASS_NAME" value="Home.HeaderTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Home" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SalehQA" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Home.*" />
@@ -70,34 +172,6 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Home" />
-      <option name="MAIN_CLASS_NAME" value="Home.HeaderSection" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Saleh" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SalehQA" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Saleh" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Specialists" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SalehQA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Specialists.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Specialists" />
       <option name="TEST_OBJECT" value="PACKAGE" />
       <properties />
       <listeners />
@@ -107,10 +181,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C:/Users/WAFA-MSI/IdeaProjects/SalehQA/testing.xml" />
-        <item itemvalue="TestNG.Specialists" />
-        <item itemvalue="TestNG.HeaderSection" />
-        <item itemvalue="TestNG.Saleh" />
+        <item itemvalue="TestNG.Academy" />
+        <item itemvalue="TestNG.Blog" />
+        <item itemvalue="TestNG.C:/Users/fun_s/IdeaProjects/SalehQA/testing.xml (1)" />
+        <item itemvalue="TestNG.C:/Users/fun_s/IdeaProjects/SalehQA/testing.xml" />
+        <item itemvalue="TestNG.Home" />
       </list>
     </recent_temporary>
   </component>
@@ -125,27 +200,27 @@
     </task>
     <task id="LOCAL-00001" summary="ok">
       <option name="closed" value="true" />
-      <created>1694348828817</created>
+      <created>1694651116455</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1694348828817</updated>
+      <updated>1694651116455</updated>
     </task>
     <task id="LOCAL-00002" summary="ok">
       <option name="closed" value="true" />
-      <created>1694524946204</created>
+      <created>1694733709853</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1694524946204</updated>
+      <updated>1694733709853</updated>
     </task>
     <task id="LOCAL-00003" summary="ok">
       <option name="closed" value="true" />
-      <created>1695470212945</created>
+      <created>1694824567288</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1695470212945</updated>
+      <updated>1694824567288</updated>
     </task>
     <option name="localTasksCounter" value="4" />
     <servers />
@@ -181,5 +256,8 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/SalehQA$C__Users_fun_s_IdeaProjects_SalehQA_testing_xml.ic" NAME="$PROJECT_DIR$/testing.xml Coverage Results" MODIFIED="1694821834622" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

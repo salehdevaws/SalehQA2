@@ -35,5 +35,16 @@
 
         </classes>
     </test>
+    <test name="BlogPage">
+        <classes>
+            <class name="Blog.Setup">
+            </class>
+            <class name="Blog.BlogPageTest">
+            </class>
+            <class name="Blog.TearDown">
+            </class>
+        </classes>
+    </test>
+
 
 </suite>

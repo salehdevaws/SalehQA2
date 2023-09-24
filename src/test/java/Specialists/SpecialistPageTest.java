@@ -22,9 +22,9 @@ public class SpecialistPageTest {
 public void CheckTextOfSearchInputField(){
    String SearchPlaceholer=SpecialistsElements.getSearchInputField().getAttribute("placeholder");
     if (SearchPlaceholer.equals("ابحث عن أخصائي من هنا"))
-        System.out.println("Search Input Placeholder Text PASSED");
+        System.out.println("Specialist Page Search Input Placeholder Text PASSED");
     else
-        System.out.println("Search Input Placeholder Text Failed");
+        System.out.println("Specialist Page Search Input Placeholder Text Failed");
 }
 @Test(priority = 5)
     public void CheckSpecialistsInfoContainerIsDisplayed(){
