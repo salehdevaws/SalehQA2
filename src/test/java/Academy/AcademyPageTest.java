@@ -1,5 +1,6 @@
 package Academy;
 
+import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -55,6 +56,67 @@ public class AcademyPageTest {
     @Test(priority = 12)
     public void CheckCoursesPageTitleIsCorrect(){
         Assert.assertEquals(AcademyElements.getCoursesPageTitle().getText(),"الدورات");
+    }
+    @Test(priority = 13)
+    public void CheckCourseMediaLinkIsDisplayed(){
+        jse.executeScript("window.scrollBy(0,200)");
+        AcademyElements.assertElementIsDisplayed(AcademyElements.getCourseMediaLink());
+    }
+    @Test(priority = 14)
+    public void CheckCourseMediaLinkIsClick(){
+        AcademyElements.getCourseMediaLink().click();
+    }
+    @Test(priority = 15)
+    public void CheckEnrollmentStatusTextIsDisplayed(){
+        AcademyElements.assertElementIsDisplayed(AcademyElements.getEnrollmentStatusText());
+    }
+    @Test(priority = 16)
+    public void CheckEnrollmentStatusTextIsCorrect(){
+        Assert.assertEquals(AcademyElements.getEnrollmentStatusText().getText(),"حالة الالتحاق");
+    }
+    @Test(priority = 17)
+    public void CheckEnrollCourseButtonIsDisplayed(){
+        AcademyElements.assertElementIsDisplayed(AcademyElements.getEnrollCourseButton());
+    }
+    @Test(priority = 18)
+    public void CheckEnrollCourseButtonIsClick(){
+        AcademyElements.getEnrollCourseButton().click();
+    }
+    @Test(priority = 19)
+    public void CheckEnrollCourseButtonIsNavigateToStore(){
+        AcademyElements.assertElementIsDisplayed(AcademyElements.getStoreTitleText());
+    }
+    //Check Cart Is Empty Before Add  Courses
+    @Test(priority = 20)
+    public void CheckCartIsEmpty(){
+        Assert.assertTrue(driver.findElement(By.xpath("/html/body/header/div[1]/div/div/section/div/div/div/div[4]/div/div/div/div[2]/div/p")).isEnabled());
+    }
+    @Test(priority = 21)
+    public void CheckAddCourseToCartButtonIsDisplayed(){
+        jse.executeScript("window.scrollBy(0,200)");
+        AcademyElements.assertElementIsDisplayed(AcademyElements.getAddCourseToCartButton());
+    }
+    @Test(priority = 22)
+    public void CheckAddCourseToCartButtonIsClick(){
+        AcademyElements.getAddCourseToCartButton().click();
+    }
+    @Test(priority = 23)
+    public void CheckMessageAfterAddToCartIsDisplayed(){
+    AcademyElements.assertElementIsDisplayed(AcademyElements.getMessageAfterAddToCart());
+    }
+    //Check if Cart is +1
+    @Test(priority = 24)
+    public void CheckCartIconNumberIsDisplayed(){
+    AcademyElements.assertElementIsDisplayed(AcademyElements.getSpanNumberOfProductsOnCart());
+    }
+    //Check if Button of View Cart is Run and Navigate truly to Cart Page
+    @Test(priority = 25)
+    public void CheckViewCartButtonIsClick(){
+        AcademyElements.getViewCartButton().click();
+    }
+    @Test(priority = 26)
+    public void CheckIfNavigateToCartPage(){
+        AcademyElements.assertElementIsDisplayed(AcademyElements.getCartPageTitleText());
     }
 
 

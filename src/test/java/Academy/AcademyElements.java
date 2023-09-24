@@ -38,5 +38,32 @@ public class AcademyElements {
     public static WebElement getCoursesPageTitle(){
         return Setup.driver.findElement(By.xpath("/html/body/div/div/div/div/div[1]"));
     }
+    public static WebElement getCourseMediaLink(){
+        return Setup.driver.findElement(By.xpath("//*[@id=\"main-content\"]/div/section[2]/div/div/div/div/div/section/div/article[1]/div/div/a"));
+    }
+    public static WebElement getEnrollmentStatusText(){
+        return Setup.driver.findElement(By.xpath("//*[@id=\"learndash_post_17543\"]/div/div[1]/div/div[1]/span"));
+    }
+    public static WebElement getStoreTitleText(){
+        return Setup.driver.findElement(By.xpath("/html/body/div[1]/div/div/div/div[1]"));
+    }
+
+    public static WebElement getSpanNumberOfProductsOnCart(){
+        return Setup.driver.findElement(By.xpath("/html/body/header/div[1]/div/div/section/div/div/div/div[4]/div/div/div/a/span/span"));
+    }
+    public static WebElement getAddCourseToCartButton(){
+        return Setup.driver.findElement(By.xpath("//*[@id=\"product-17548\"]/div[2]/form/button"));
+    }
+    //Check Message of Added to cart successfully
+    public static WebElement getMessageAfterAddToCart(){
+        return Setup.driver.findElement(By.xpath("//*[@id=\"main-content\"]/div[1]/div/div[2]/div/a"));
+    }
+    public static WebElement getCartPageTitleText(){
+        return Setup.driver.findElement(By.xpath("/html/body/div/div/div/div/div[1]"));
+    }
+    public static WebElement getViewCartButton(){
+        return Setup.driver.findElement(By.xpath("//*[@id=\"main-content\"]/div[1]/div/div[2]/div/a"));
+    }
+
 
 }
