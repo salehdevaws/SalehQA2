@@ -45,6 +45,13 @@
             </class>
         </classes>
     </test>
-
+    <test name="AcademyPageTest">
+        <classes>
+            <class name="Academy.Setup">
+            </class>
+            <class name="Academy.AcademyPageTest"></class>
+            <class name="Academy.TearDown"></class>
+        </classes>
+    </test>
 
 </suite>
