@@ -49,9 +49,14 @@ public class AcademyPageTest {
         AcademyElements.getCoursesButton().click();
     }
     @Test(priority = 11)
-    public void CheckCoursesPageTitle(){
-
+    public void CheckCoursesPageTitleIsDisplayed(){
+        AcademyElements.assertElementIsDisplayed(AcademyElements.getCoursesPageTitle());
     }
+    @Test(priority = 12)
+    public void CheckCoursesPageTitleIsCorrect(){
+        Assert.assertEquals(AcademyElements.getCoursesPageTitle().getText(),"الدورات");
+    }
+
 
 
 
